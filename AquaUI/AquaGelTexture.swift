@@ -59,6 +59,11 @@ struct AquaGelTexture: View {
 
 struct AquaGelTexture_Previews: PreviewProvider {
     static var previews: some View {
-        AquaGelTexture()
+        AquaGelTexture(primary: true)
+            .frame(width: 80, height: 20, alignment: .center)
+            .mask(RoundedRectangle(cornerRadius: 25.0))
+            .shadow(color: .black, radius: 2, x: 0.0, y: 1.0)
+            .padding()
+            .previewLayout(.sizeThatFits)
     }
 }
