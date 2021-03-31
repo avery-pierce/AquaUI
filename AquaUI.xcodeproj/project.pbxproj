@@ -11,6 +11,11 @@
 		C6BDFE13260E76BE00D60312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDFE12260E76BE00D60312 /* ContentView.swift */; };
 		C6BDFE15260E76BF00D60312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BDFE14260E76BF00D60312 /* Assets.xcassets */; };
 		C6BDFE18260E76BF00D60312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BDFE17260E76BF00D60312 /* Preview Assets.xcassets */; };
+		C6BDFE21260E76EE00D60312 /* AquaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDFE20260E76EE00D60312 /* AquaButton.swift */; };
+		C6BDFE24260E7CC300D60312 /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDFE23260E7CC300D60312 /* FontsView.swift */; };
+		C6BDFE27260E82D600D60312 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDFE26260E82D600D60312 /* ColorExtension.swift */; };
+		C6BDFE2A2614BA7000D60312 /* AquaStripeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDFE292614BA7000D60312 /* AquaStripeBackground.swift */; };
+		C6BDFE2D2614BAD900D60312 /* AquaGelTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BDFE2C2614BAD900D60312 /* AquaGelTexture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		C6BDFE14260E76BF00D60312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6BDFE17260E76BF00D60312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6BDFE19260E76BF00D60312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BDFE20260E76EE00D60312 /* AquaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaButton.swift; sourceTree = "<group>"; };
+		C6BDFE23260E7CC300D60312 /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
+		C6BDFE26260E82D600D60312 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C6BDFE292614BA7000D60312 /* AquaStripeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaStripeBackground.swift; sourceTree = "<group>"; };
+		C6BDFE2C2614BAD900D60312 /* AquaGelTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaGelTexture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				C6BDFE10260E76BE00D60312 /* AquaUIApp.swift */,
 				C6BDFE12260E76BE00D60312 /* ContentView.swift */,
+				C6BDFE20260E76EE00D60312 /* AquaButton.swift */,
+				C6BDFE292614BA7000D60312 /* AquaStripeBackground.swift */,
+				C6BDFE2C2614BAD900D60312 /* AquaGelTexture.swift */,
+				C6BDFE23260E7CC300D60312 /* FontsView.swift */,
+				C6BDFE26260E82D600D60312 /* ColorExtension.swift */,
 				C6BDFE14260E76BF00D60312 /* Assets.xcassets */,
 				C6BDFE19260E76BF00D60312 /* Info.plist */,
 				C6BDFE16260E76BF00D60312 /* Preview Content */,
@@ -140,6 +155,11 @@
 			files = (
 				C6BDFE13260E76BE00D60312 /* ContentView.swift in Sources */,
 				C6BDFE11260E76BE00D60312 /* AquaUIApp.swift in Sources */,
+				C6BDFE2D2614BAD900D60312 /* AquaGelTexture.swift in Sources */,
+				C6BDFE2A2614BA7000D60312 /* AquaStripeBackground.swift in Sources */,
+				C6BDFE21260E76EE00D60312 /* AquaButton.swift in Sources */,
+				C6BDFE24260E7CC300D60312 /* FontsView.swift in Sources */,
+				C6BDFE27260E82D600D60312 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
