@@ -12,6 +12,7 @@ struct AquaUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .accentColor(.aqua)
         }
     }
 }
